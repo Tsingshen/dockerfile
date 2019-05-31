@@ -1,4 +1,9 @@
  Dockerfile命令详解（超全版本）
+ 
+ # echo 传入多行数据
+ RUN echo '123\n\
+ 456\n\
+ 789' >/tmp/123.txt 
 
 制作Dockerfile为Docker入门学习的第一步（当然，除了环境搭建）。
 
